@@ -5,6 +5,34 @@ body, html {
   display: flex;
   min-height: 100vh;
   background: #eaeaea; 
+  display: flex;
+  margin: 0;
+}
+
+nav {
+  width: 200px; 
+  background: whitesmoke; 
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px; 
+  margin-left: 200px; 
+}
+
+main h1 {
+  color: #2a2a2a;
+}
+
+main p {
+  line-height: 1.6;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
 }
 
 .sidebar {
@@ -32,7 +60,7 @@ body, html {
 }
 
 .navigation li {
-  margin-bottom: 5px; 
+  margin-bottom: 10px; 
 }
 
 .nav-link {
@@ -40,25 +68,11 @@ body, html {
   color: black; 
   display: block;
   padding: 10px;
-  background: whitesmoke; 
+  background: white; 
   transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-link:hover, .nav-link.active {
   background-color: black; 
   color: whitesmoke;
-}
-
-main h1 {
-  color: #2a2a2a;
-}
-
-main p {
-  line-height: 1.6;
-}
-
-footer p {
-  text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
 }

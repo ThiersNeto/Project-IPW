@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../Style/styleContact.css">
+</head>
+<body>
+    <div class="contact-form">
+        <p>Como todo freelancer procuro EMPREGOS, então se você está procurando pessoas para sua equipe e gosta do que vê de mim, NÃO PERCA MAIS UM MINUTO e entre em contato comigo!</p>
+
+        <p>Também estou aberto a comentários ou sugestões sobre meu trabalho.</p>
+
+        <p>Se você me escrever, responderei assim que ler seu e-mail</p>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Address<span>*</span></label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="text">Text <span>*</span></label>
+            <textarea id="text" name="text" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <p><strong>Atenção:</strong> Os campos marcados com <span>*</span> é obrigatório.</p>
+    </div>
+</body>
+</html>
